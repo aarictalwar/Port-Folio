@@ -1,0 +1,153 @@
+.image img {
+  width: 100px;
+  border-radius: 10px;
+}
+* {
+  font-family: "Erode", serif;
+}
+.Logo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+body {
+  background-color: #0d0d0d;
+}
+.hleft {
+  color: #e0dfda;
+}
+
+.header {
+  color: white;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.header h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.header p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.tech-logos {
+  justify-content: space-around;
+  display: flex;
+}
+
+.tech {
+  color: white;
+  padding: 50px;
+}
+
+.tech-logos img {
+  width: 100px;
+}
+
+.tech h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.tech p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+.project-card {
+  color: white;
+  padding: 50px;
+}
+.project-card h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.project-card h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+.project-card h3 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.project-card h4 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.project-card p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.p-card {
+  width: 500px;
+  border-radius: 20px;
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.5s ease-in-out;
+}
+.p-card img {
+  width: 100%;
+}
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.p-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px white;
+}
+.bill {
+  width: 1000px;
+}
+.footer {
+  background: white;
+  color: bl;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0;
+}
+
+.footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #000000;
+  font-size: 14px;
+}
